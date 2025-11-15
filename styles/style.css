@@ -67,6 +67,7 @@ footer{
 
 .li-rut{
     color: #ec53a0;
+    list-style: none;
 }
 
 .a-rut{
@@ -153,7 +154,7 @@ h3{
 }
 
 .area-h2{
-    margin: 10px 40px;
+    margin: 10px 50px;
 }
 
 .play-list{
@@ -168,6 +169,7 @@ h3{
 }
 
 .contendor-ol{
+    margin-left: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 200px;
@@ -182,4 +184,10 @@ h3{
 
 .a-rut{
     grid-area: a-rut;
+}
+
+.tituloh1{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
 }
