@@ -167,3 +167,19 @@ h3{
     margin: 15px auto;
 }
 
+.contendor-ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-area: 
+    "li-rut" 
+    "a rut"    ;
+}
+
+.li-rut{
+    grid-area: li-rut;
+}
+
+.a-rut{
+    grid-area: a-rut;
+}
