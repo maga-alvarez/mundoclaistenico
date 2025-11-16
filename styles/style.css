@@ -219,3 +219,25 @@ h3{
 .ul-moves{
     margin-left: 40px;
 }
+
+.container-fluid{
+    background-color: #82d3df ;
+    border: none;
+    
+}
+
+.navbar-brand{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ec53a0;
+}
+
+.nav-link{
+    font-family:  "Roboto Condensed", sans-serif;
+    color: #97bd31;
+}
+
+
+.header{
+    margin-bottom: 0px;
+}
+
