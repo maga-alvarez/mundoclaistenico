@@ -222,8 +222,9 @@ h3{
 
 .container-fluid{
     background-color: #82d3df ;
-    border: none;
-    
+    display: flex;
+    align-items: flex-end ;
+  
 }
 
 .navbar-brand{
@@ -241,3 +242,8 @@ h3{
     margin-bottom: 0px;
 }
 
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
