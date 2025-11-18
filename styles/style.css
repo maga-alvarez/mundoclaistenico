@@ -247,3 +247,47 @@ h3{
     justify-content: flex-end;
     width: 100%;
 }
+
+.mapa{
+    display: block;
+    margin: auto;
+}
+
+.form-container form{
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    grid-template-areas: 
+        "nombre mail"
+        "barrios mensaje";
+    justify-content: space-around;
+}
+
+.nombre{
+    grid-area: nombre;
+}
+
+.mail{
+    grid-area: mail;
+}
+
+.barrios{
+    grid-area: barrios;
+}
+
+.mensaje{
+    grid-area: mensaje;
+}
+
+.cuadrotexto{
+    width: 600px;
+    height: 70px;
+}
+
+input,
+textarea,
+select{
+    border-radius: 5px;
+}
+
