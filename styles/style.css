@@ -291,3 +291,14 @@ select{
     border-radius: 5px;
 }
 
+@media (max-width: 450px){
+    .body{
+        margin: 0 16px;
+    }
+    .home-p{
+        margin: 0 16px;
+    }
+   .footer-conteiner{
+    flex-direction: column;
+   }
+}
