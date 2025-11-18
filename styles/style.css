@@ -134,7 +134,7 @@ h3{
     margin-bottom: 5%;
     display: flex;
     flex-direction: row;
-    width: 5%;
+    width: 24px;
 }
 
 .images-home{
@@ -144,8 +144,8 @@ h3{
 }
 
 .img-home{
-    width: 30%;
-    height: 60%;
+    width: 550px;
+    height: 300px;
     margin: 40px auto;
 }
 
@@ -299,6 +299,15 @@ select{
         margin: 0 16px;
     }
    .footer-conteiner{
-    flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+   }
+   .img-home{
+        margin: 0 40px;
+   }
+   .p-footer{
+        margin: 40px 16px;
    }
 }
+
