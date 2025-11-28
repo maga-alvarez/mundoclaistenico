@@ -1,0 +1,20 @@
+.collapse.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-personalizado{
+    background-color: #6BCB77;
+}
+
+.navbar-personalizado .navbar-brand {
+    font-family: "Montserrat", bold;
+    color: #222222;
+}
+
+.navbar-personalizado .nav-link{
+    font-family: "Montserrat", bold;
+    color: #222222;
+
+}
