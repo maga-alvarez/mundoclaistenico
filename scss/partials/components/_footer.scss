@@ -1,0 +1,22 @@
+footer{
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.img-footer{
+    width: 28px;
+    height: 28px;
+}
+
+.div-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+}
+
