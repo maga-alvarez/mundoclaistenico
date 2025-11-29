@@ -54,4 +54,25 @@ footer {
   gap: 5px;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #FF7F50;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #FFC3A8;
+  margin: 20px;
+}
+
+body {
+  background-color: #F1FFE8;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #222222;
+}
+
 /*# sourceMappingURL=style.css.map */
