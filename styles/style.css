@@ -37,6 +37,7 @@ footer {
   font-size: 13px;
   color: #222222;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
@@ -73,6 +74,17 @@ body {
 p {
   font-family: "Montserrat", sans-serif;
   color: #222222;
+}
+
+.img-home {
+  width: 400px;
+}
+
+.contenedor-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px 200px;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

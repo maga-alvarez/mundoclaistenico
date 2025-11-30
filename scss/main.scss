@@ -8,3 +8,11 @@
 @use "./partials/components/footer";
 @use "./partials/components/titulos";
 @use "./partials/components/generales";
+
+
+.contenedor-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px 200px;
+    margin: 20px;
+}
