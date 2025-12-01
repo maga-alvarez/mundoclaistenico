@@ -1,5 +1,7 @@
 @use "../Utilitis/mixins";
 
+@use "../Utilitis/botones";
+
 body{
     background-color: #F1FFE8;
 }
@@ -37,3 +39,13 @@ a{
     margin: 0 auto;
 
 }
+
+.p-mapa{
+   @include mixins.flex(column, center, center);
+}
+
+.form-container form{
+    @include mixins.grid(1fr 1fr, 20px);
+    margin: 20px;
+}
+
