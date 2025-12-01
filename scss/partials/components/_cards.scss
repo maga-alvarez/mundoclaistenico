@@ -17,10 +17,6 @@
 
 }
 
-h3{
-    font-family: "Poppins", sans-serif;
-    color: #b4b4b4 ;
-}
 
 .entrada-c{
     @include mixins.flex(row, space-between, center);
@@ -46,4 +42,8 @@ h3{
 .container-moves{
     display: flex;
     justify-content: center;
+}
+
+.contendor-ol{
+    @include mixins.flex(row, space-evenly, center)
 }
