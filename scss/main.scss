@@ -8,11 +8,20 @@
 @use "./partials/components/footer";
 @use "./partials/components/titulos";
 @use "./partials/components/generales";
+@use "./partials/components/cards";
 
+
+//MIXINS
+
+@use "./partials/Utilitis/mixins";
 
 .contenedor-home{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 150px 200px;
+    @include mixins.grid(1fr 1fr, 150px 200px);
     margin: 20px;
 }
+
+li{
+    list-style-type: none;
+}
+
+
