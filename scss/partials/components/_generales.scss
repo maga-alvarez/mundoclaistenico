@@ -1,3 +1,5 @@
+@use "../Utilitis/mixins";
+
 body{
     background-color: #F1FFE8;
 }
@@ -24,4 +26,14 @@ a{
 .play-list{
     width: 600px;
     margin: 20px;
+}
+
+.p-habilidades{
+    margin: 20px;
+}
+
+.video-yt{
+    display: block;
+    margin: 0 auto;
+
 }

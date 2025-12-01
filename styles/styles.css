@@ -111,11 +111,6 @@ a {
   margin: 20px;
 }
 
-.video-yt {
-  display: block;
-  margin: 0 auto;
-}
-
 .card {
   display: grid;
   gap: 14px;
@@ -181,4 +176,4 @@ li {
   list-style-type: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
