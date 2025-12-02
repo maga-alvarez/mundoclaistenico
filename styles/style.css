@@ -130,6 +130,21 @@ a {
   margin: 20px;
 }
 
+.miboton {
+  background-color: #6BCB77;
+  font-family: "Ponppins";
+  color: #FFFFFF;
+  padding: 7px 9px;
+  border-radius: 3px;
+  border: none;
+}
+
+.miboton:hover {
+  background-color: #F1FFE8;
+  border: solid;
+  color: #6BCB77;
+}
+
 .card {
   display: grid;
   gap: 14px;

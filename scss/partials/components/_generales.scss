@@ -1,6 +1,6 @@
 @use "../Utilitis/mixins";
 
-@use "../Utilitis/botones";
+
 
 body{
     background-color: #F1FFE8;
@@ -48,4 +48,17 @@ a{
     @include mixins.grid(1fr 1fr, 20px);
     margin: 20px;
 }
+
+.miboton{
+    @include mixins.button(#6BCB77, "Ponppins", #FFFFFF, none);
+}
+
+.miboton:hover{
+    background-color: #F1FFE8;
+    border: solid;
+    color: #6BCB77;
+}
+
+
+
 

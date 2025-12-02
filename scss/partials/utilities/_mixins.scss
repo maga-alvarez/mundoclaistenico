@@ -10,13 +10,3 @@
     grid-template-columns: $columns;
     gap: $gap;
 }
-
-@mixin button ($bgcolor, $font, $color, $border){
-    background-color: $bgcolor;
-    font-family: $font;
-    color: $color;
-    padding: 7px 9px;
-    border-radius: 3px;
-    border: $border;
-    
-}
