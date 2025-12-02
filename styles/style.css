@@ -55,6 +55,12 @@ footer {
   gap: 5px;
 }
 
+@media (max-width: 440px) {
+  footer {
+    flex-direction: column-reverse;
+    gap: 3px;
+  }
+}
 h1 {
   font-family: "Poppins", sans-serif;
   color: #FF7F50;
@@ -206,6 +212,12 @@ a {
   margin: 20px;
 }
 
+@media (max-width: 440px) {
+  .contenedor-home {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
 li {
   list-style-type: none;
 }

@@ -13,11 +13,20 @@
 
 //MIXINS
 
-@use "./partials/Utilitis/mixins";
+@use "./partials/Utilities/mixins";
+
+
 
 .contenedor-home{
     @include mixins.grid(1fr 1fr, 150px 200px);
     margin: 20px;
+}
+
+@media (max-width: 440px){
+   .contenedor-home{
+    grid-template-columns: 1fr;
+    gap: 10px;
+   }
 }
 
 li{
