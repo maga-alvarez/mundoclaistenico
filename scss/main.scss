@@ -16,21 +16,10 @@
 @use "./partials/Utilities/mixins";
 
 
+//RESPONSIVE
 
-.contenedor-home{
-    @include mixins.grid(1fr 1fr, 150px 200px);
-    margin: 20px;
-}
+@use "./partials/Utilities/responsive"
 
-@media (max-width: 440px){
-   .contenedor-home{
-    grid-template-columns: 1fr;
-    gap: 10px;
-   }
-}
 
-li{
-    list-style-type: none;
-}
 
 

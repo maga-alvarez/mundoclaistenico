@@ -25,6 +25,11 @@ a{
     margin: 0 auto;
 }
 
+.contenedor-home{
+    @include mixins.grid(1fr 1fr, 150px 200px);
+    margin: 20px;
+}
+
 .play-list{
     width: 600px;
     margin: 20px;
@@ -44,6 +49,8 @@ a{
    @include mixins.flex(column, center, center);
 }
 
+
+
 .form-container form{
     @include mixins.grid(1fr 1fr, 20px);
     margin: 20px;
@@ -59,6 +66,8 @@ a{
     color: #6BCB77;
 }
 
-
+li{
+    list-style-type: none;
+}
 
 
