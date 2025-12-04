@@ -20,10 +20,5 @@ footer{
     gap: 5px;
 }
 
-@media (max-width: 440px){
-    footer{
-        flex-direction: column-reverse;
-        gap: 3px;
-    }
-}
+
 

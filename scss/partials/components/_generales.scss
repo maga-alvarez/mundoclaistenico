@@ -51,7 +51,7 @@ a{
 
 
 
-.form-container form{
+.form-container {
     @include mixins.grid(1fr 1fr, 20px);
     margin: 20px;
 }
@@ -70,4 +70,14 @@ li{
     list-style-type: none;
 }
 
+.mapa{
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.video-yt{
+    width: 560px;
+    height: 315px;
+}
 
