@@ -215,6 +215,10 @@ li {
   align-items: center;
 }
 
+.animate__animated:hover {
+  animation-name: animate__pulse;
+}
+
 @media (max-width: 420px) {
   body {
     max-width: 100%;
